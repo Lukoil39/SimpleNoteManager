@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="common_margin">8dp</dimen>
+    <dimen name="frame_margin">4dp</dimen>
+</resources>
