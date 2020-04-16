@@ -16,6 +16,7 @@ class MainAdapter : RecyclerView.Adapter<NoteViewHolder>() {
             notifyDataSetChanged()
         }
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val view = inflater.inflate(R.layout.item_note, parent, false)

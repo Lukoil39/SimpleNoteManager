@@ -13,6 +13,5 @@ class MainViewModel : ViewModel() {
         viewStateLiveData.value =
             MainViewState(Repository.notes)
     }
-
     fun viewState(): LiveData<MainViewState> = viewStateLiveData
 }

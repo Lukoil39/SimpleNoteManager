@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var viewModel: MainViewModel
     lateinit var adapter: MainAdapter
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
