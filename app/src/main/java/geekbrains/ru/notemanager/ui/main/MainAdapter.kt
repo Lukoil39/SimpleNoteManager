@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import geekbrains.ru.notemanager.model.Note
 import geekbrains.ru.notemanager.R
 
+
 class MainAdapter : RecyclerView.Adapter<NoteViewHolder>() {
 
     var notes: List<Note> = listOf()

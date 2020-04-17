@@ -33,4 +33,5 @@
             android:layout_margin="@dimen/common_margin"
             tools:text="@string/item_body"/>
     </LinearLayout>
+
 </androidx.cardview.widget.CardView>

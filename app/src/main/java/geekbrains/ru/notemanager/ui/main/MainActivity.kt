@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+
     lateinit var viewModel: MainViewModel
     lateinit var adapter: MainAdapter
 
